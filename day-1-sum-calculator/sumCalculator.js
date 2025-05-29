@@ -4,7 +4,7 @@ function sumTwoNumbers(a, b) {
 var num1Input = document.getElementById("num1");
 var num2Input = document.getElementById("num2");
 var resultSum = document.getElementById("result");
-var buttom = document.getElementById("calc");
+var buttom = document.getElementById("click");
 buttom.addEventListener("click", function () {
     var num1 = parseFloat(num1Input.value);
     var num2 = parseFloat(num2Input.value);
